@@ -1,7 +1,7 @@
 chrome.contextMenus.removeAll();
 chrome.contextMenus.create({
       id:"shareAdtQuery",
-      title: "Share Azure Digital Twins Query",
+      title: "Copy Azure Digital Twins Query Link to clipboard",
       contexts: ["selection"]      
 });
 

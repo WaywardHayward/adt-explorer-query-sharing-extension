@@ -13,7 +13,8 @@
   "permissions": [
     "tabs",
     "contextMenus",
-    "notifications"
+    "notifications",
+    "storage"
   ],
   "background": {
     "service_worker": "js/adtquerysharer.js"
